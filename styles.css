@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  margin: 32px;
+}
+
+.header {
+  margin: auto;
+  width: 100%;
+  background-color: #f9c74f;
+  text-align: center;
+  padding: 18px 0;
+  color: #353535;
+  font-size: 24px;
+}
+
+.setup{
+  display: block;
+  text-align: center;
+  border-radius: 24px;
+  width: 50%;
+  background-color: #43aa8b;
+  color: white;
+  padding: 18px;
+}
+
+.settings{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  padding: 0px 18px;
+  padding-top: 18px;
+
+}
+
+.Submit {
+  margin-top: 18px;
+  text-align: center;
+  background-color: #577590;
+  color: white;
+}
+
+.quiz {
+  display: none;
+  text-align: center;
+    width: 70%;
+    align-items: center;
+}
+
+.tf {
+  margin: 32px;
+  margin-bottom: 64px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.mc {
+  margin: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.answers div div {
+  font-size: 32px;
+  border-radius: 24px;
+  padding: 24px 48px;
+  width: 40%;
+  color: white;
+  margin: 18px;
+}
+
+
+
+.true {
+  background-color: #577590;
+}
+
+.false {
+  background-color: #f94144;
+}
+
+.a {
+  background-color: #7209b7;
+}
+
+.b {
+  background-color: #3a0ca3;
+}
+
+.c {
+  background-color: #f3722c;
+}
+
+.d {
+  background-color: #e71d36;
+}
+
+.result {
+  padding: 48px;
+  font-size: 32px;
+}
+
+.next {
+  background-color: #90be6d;
+  font-size: 32px;
+  padding: 24px 48px;
+  margin: auto;
+  width: 30%;
+  border-radius: 24px;
+  color: white;
+}
+
+.score {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.page-container{
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 150px;
+}
+
+.footer{
+height: 100px;
+background-color: #343A40;
+display: flex;
+justify-content: flex-start;
+width: 100%;
+position: absolute;
+bottom: 0;
+}
+
+.github:link, .github:visited {
+  color: white;
+  background-color: #343A40;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 10px
+}
+
+.github:hover,
+.github:visited:hover {
+  color: #FFF;
+  background-color: #343A40;  /* Light blue */
+}
+
+.github:active,
+.github:visited:active {
+  color: #FFF;
+  background-color: #343A40;  /* Blue */
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 750px) {
+  .quiz  {
+    width: 100%;
+  }
+  .setup  {
+    width: 100%;
+  }
+  .answers div div{
+    width: 90%;
+  }
+  .next{
+    width:70%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .quiz  {
+    width: 100%;
+  }
+  .setup  {
+    width: 100%;
+  }
+  .answers div div{
+    width: 90%;
+  }
+  .next{
+    width:70%;
+  }
+}
